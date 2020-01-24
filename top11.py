@@ -1,0 +1,8 @@
+a=int(input('enter 1st no in decimal'))
+b=int(input('enter 2nd no in decimal'))
+print(f'{a} or {b} : {a|b}')
+print(f'{a} and {b} : {a&b}')
+print(f'{a} xor {b} : {a^b}')
+print(f'negation {a}: {~a} , negation {b} : {~b}')
+print(f'Right shift: {a}>>2 {a>>2} {b}>>3 : {b>>3}')
+print(f'left shift: {a}<<2 {a<<2} {b}<<3 : {b<<3}')
